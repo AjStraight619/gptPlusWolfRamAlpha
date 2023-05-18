@@ -9,7 +9,7 @@ export const SymbolPicker: React.FC<SymbolPickerProps> = ({ onSymbolClick }) => 
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md mt-4">
-      <p className="font-bold mb-2">Math Symbols</p>
+      <p className="font-bold mb-2"></p>
       <div className="flex flex-wrap">
         {symbols.map((symbol) => (
           <button
